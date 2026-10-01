@@ -25,7 +25,7 @@ currently you can use these two drop down intefaces. Thiese interface can
 be used with any database/language that supports  or has a public odbc driver,
 duckdb, mysql, postgreql, sql server, oracle,
 sqlite, sybase, matlab(octave), r, python, perl, spss(pspp), powershell,
-excel, google aheets, libre office, revolution R...
+excel, google sheets, libre office, revolution R...
 More interfaces to follow.I will defer to libname and passthru for sql when supported.
 
 THE MACRO SANDWICH CONSISTS OF THREE SECTIONS.
@@ -84,7 +84,7 @@ parmcards4;
   %local pth;
   %let pth=%sysfunc(pathname(work));
 
-  %utlfkil&pth/duck_resolve.sql);
+  %utlfkil(&pth/duck_resolve.sql);
 
   data _null_;
     length _infile_ $255;
