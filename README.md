@@ -98,7 +98,7 @@ Jenner Analytics-part-I-inline-drop-down-to-duckdb-sql
         put _infile_;
         putlog _infile_;
     
-    %mend jnr_duckdeginx;
+    %mend jnr_duckbeginx;
     ;;;;
     run;
     
