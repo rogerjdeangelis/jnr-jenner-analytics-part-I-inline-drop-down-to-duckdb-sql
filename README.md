@@ -86,7 +86,7 @@ Jenner Analytics-part-I-inline-drop-down-to-duckdb-sql
       %local pth;
       %let pth=%sysfunc(pathname(work));
     
-      %utlfkil&pth/duck_resolve.sql);
+      %utlfkil(&pth/duck_resolve.sql);
     
       data _null_;
         length _infile_ $255;
