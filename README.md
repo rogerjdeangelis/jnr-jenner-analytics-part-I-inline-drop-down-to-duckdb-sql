@@ -80,7 +80,7 @@ Jenner Analytics-part-I-inline-drop-down-to-duckdb-sql
     filename ft15f001 "c:/otojnr/jnr_duckbeginx.sas";
     parmcards4;
     %macro jnr_duckbeginx(
-        resolve=Y
+        resolve=
         )/des="Allow additional quote(backtic) and provide for macro resolution";
     
       %local pth;
