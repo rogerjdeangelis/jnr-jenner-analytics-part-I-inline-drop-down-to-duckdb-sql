@@ -78,7 +78,7 @@ THE MACRO SANDWICH CONSISTS OF THREE SECTIONS.
 filename ft15f001 "c:/otojnr/jnr_duckbeginx.sas";
 parmcards4;
 %macro jnr_duckdeginx(
-    resolve=Y
+    resolve=
     )/des="Allow additional quote(backtic) and provide for macro resolution";
 
   %local pth;
