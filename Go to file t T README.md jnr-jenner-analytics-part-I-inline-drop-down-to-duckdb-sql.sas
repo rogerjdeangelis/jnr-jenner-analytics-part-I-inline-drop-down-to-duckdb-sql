@@ -197,7 +197,7 @@ data  prq.class;
     keep name age;
 run;
 
-%jnr_duckdeginxrresolve=Y);
+%jnr_duckdeginx(resolve=Y);
 cards4;
 drop table if exists class;
 drop table if exists avgAge;
